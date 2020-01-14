@@ -6,6 +6,8 @@ WORKDIR ${WORKSPACE_DIR}
 RUN apt-get update \
     && apt-get install -y vim curl git
 
+RUN pip install matplotlib seaborn
+
 RUN mkdir /root/software \
     && cd /root/software \
     && git clone https://github.com/NVIDIA/apex \
