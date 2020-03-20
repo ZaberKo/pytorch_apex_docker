@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.3-cuda10.1-cudnn7-devel
+FROM pytorch/pytorch:1.4-cuda10.1-cudnn7-devel
 LABEL maintainer="zaberchann" version="0.1"
 
 ARG WORKSPACE_DIR=/workspace
